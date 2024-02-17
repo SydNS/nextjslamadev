@@ -4,7 +4,7 @@ import {
     MdGroup,
     MdPerson,
     MdPerson2,
-    MdReport,
+    MdReport, MdSettings,
     MdShop,
     MdShoppingBag,
     MdVerifiedUser
@@ -83,32 +83,17 @@ const menuItems = [
         ]
     },
     {
-        title: "Banks",
+        title: "User",
         list: [
             {
-                title: "Banks",
-                path: "/banks",
-                icon: <MdShop/>,
+                title: "Setting",
+                path: "/setting",
+                icon: <MdSettings/>,
             },
             {
-                title: "Add Bank",
-                path: "/bank",
-                icon: <MdShoppingBag/>,
-            }
-        ]
-    },
-    {
-        title: "TelCo.s",
-        list: [
-            {
-                title: "Mobile Telco",
-                path: "/telco",
-                icon: <MdShop/>,
-            },
-            {
-                title: "Add Mobile Telco",
-                path: "/telco",
-                icon: <MdShoppingBag/>,
+                title: "Profile",
+                path: "/profile",
+                icon: <MdPerson/>,
             }
         ]
     }
