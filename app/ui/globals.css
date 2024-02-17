@@ -5,7 +5,8 @@
     --textSoft: #dedede;
 }
 body{
-    background-color: var(--bg);
+    /*background-color: var(--bg);*/
+    background-color: rgba(13, 18, 49, 0.96);
     color: var(--text);
 }
 a{

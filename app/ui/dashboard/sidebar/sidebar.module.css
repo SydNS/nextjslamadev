@@ -1,6 +1,7 @@
 .container {
     position: sticky;
     top: 40px;
+    background-color: var(--bg);
 }
 
 .user {

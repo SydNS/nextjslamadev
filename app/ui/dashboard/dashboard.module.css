@@ -3,8 +3,10 @@
 }
 .menu{
     flex:0.8;
-    background: var(--bgSoft);
+    background: var(--bg);
+    margin: 20px;
     padding: 20px;
+    border-radius: 10px;
 }
 .content{
     flex: 4;

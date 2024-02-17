@@ -1,3 +1,36 @@
 .container{
     display: flex;
+    position: absolute;
+    background-color: var(--bg);
+}
+.item{
+
+}
+.bgContainer{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    width: 50%;
+    height: 50%;
+
+}
+.bg{
+    object-fit: cover;
+    opacity: 0.2;
+}
+.texts{
+
+}
+.notification{
+
+}
+
+.title{
+
+}
+.subtitle{
+
+}
+.desc{
+
 }

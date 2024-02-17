@@ -12,7 +12,7 @@ const Card = () =>{
                     <span className={styles.positive}>
                         12%
                     </span>
-                    more than the previous
+                     more than the previous
                 </span>
             </div>
         </div>
