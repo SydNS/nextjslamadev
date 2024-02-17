@@ -19,9 +19,9 @@ export const transactions = [
     },
     {
         name: 'Steven Doe',
-        status: 'Pending',
+        status: 'Cancelled',
         date: '3rd/Feb/2023',
-        amount: 6000000,
+        amount: 800000,
         image: '/noproduct.jpg'
     }
 ];
