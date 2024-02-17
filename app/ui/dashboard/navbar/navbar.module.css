@@ -1,0 +1,14 @@
+.container {
+    padding: 20px;
+    display: flex;
+    border-radius: 10px;
+    background-color: var(--bgSoft);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    color: var(--textSoft);
+    font-weight: bold;
+    text-transform: capitalize;
+}
