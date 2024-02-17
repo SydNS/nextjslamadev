@@ -1,0 +1,21 @@
+.container{
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin: 0;
+    border-radius: 4px;
+}
+
+.container:hover{
+    background-color: var(--bgSoft);
+}
+.linkIcon{
+    margin-left: 5px;
+}
+.linkText{
+    font-size: 16px;
+}
+.active{
+    background-color: rgba(59,255,181,0.71);
+}
