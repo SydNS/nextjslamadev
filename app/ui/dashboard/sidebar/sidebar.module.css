@@ -1,0 +1,21 @@
+.container{
+    position: sticky;
+    top: 40px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.userImage{
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #6081ca;
+}
+.userName{
+    font-weight: 500;
+}
+.userTitle{
+    font-size: 12px;
+    color: var(--textSoft);
+}
