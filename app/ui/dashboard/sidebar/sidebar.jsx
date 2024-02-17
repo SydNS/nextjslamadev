@@ -1,4 +1,6 @@
-import React from 'react'
+import React                                                         from 'react'
+import {MdClass, MdDashboard, MdShop, MdShoppingBag, MdVerifiedUser} from "react-icons/md";
+import styles  from "./sidebar.module.css"
 
 const menuItems=[
     {
@@ -7,16 +9,16 @@ const menuItems=[
             {
                 title:"Dashboard",
                 path:"/dashboard",
-                // icon:<MdDashboard/>,
+                icon:<MdDashboard/>,
             },
             {
                 title:"Users",
                 path:"/users",
-                // icon:<MdDashboard/>,
+                icon:<MdVerifiedUser/>,
             }, {
                 title: "Markets",
                 path: "/markets",
-                // icon:<MdDashboard/>,
+                icon:<MdShop/>,
             },
         ]
     },
@@ -26,12 +28,12 @@ const menuItems=[
             {
                 title:"All",
                 path:"/dashboard",
-                // icon:<MdDashboard/>,
+                icon:<MdDashboard/>,
             },
             {
                 title:"Add Users",
                 path:"/user",
-                // icon:<MdDashboard/>,
+                icon:<MdDashboard/>,
             }
         ]
     },
@@ -41,18 +43,26 @@ const menuItems=[
             {
                 title:"markets",
                 path:"/markets",
-                // icon:<MdDashboard/>,
+                icon:<MdShop/>,
             },
             {
                 title:"Add Market",
                 path:"/market",
-                // icon:<MdDashboard/>,
+                icon:<MdShoppingBag/>,
             }
         ]
     }
 ]
 const Sidebar = () => (
-    <div>Sidebar</div>
+    <div className={styles.container}>
+        <ul>
+            {menuItems.map((item)=>{
+                return (
+                    <li key={item.title}>{item.title}</li>
+                )
+            })}
+        </ul>
+    </div>
 );
 
 export default Sidebar
