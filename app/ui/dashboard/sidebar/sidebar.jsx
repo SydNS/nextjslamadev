@@ -101,7 +101,7 @@ const menuItems = [
 const Sidebar = () => (
     <div className={styles.container}>
         <div className={styles.user}>
-            <Image className={styles.userImage} src="/public/noavatar.png" alt="user image" width="50" height="50"/>
+            <Image className={styles.userImage} src="/astronaut.png" alt="user image" width="50" height="50"/>
             <span className={styles.username}>Sydney Doe</span>
             <span className={styles.userTitle}>Sr Dev</span>
         </div>

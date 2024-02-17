@@ -18,7 +18,8 @@ const Transaction = () => {
             <tr>
                 <td>
                     <div className={styles.user}>
-                        <Image src="/noavatar.png" alt="user image" width={40} height={40} className={styles.userImage}/>
+                        <Image src="/noavatar.png" alt="user image" width={40} height={40}
+                               className={styles.userImage}/>
                         John Doe
                     </div>
                 </td>
@@ -32,8 +33,11 @@ const Transaction = () => {
             </tr>
             <tr>
                 <td>
-                    {/*<Image/>*/}
-                    Jane Doe
+                    <div className={styles.user}>
+                        <Image src="/astronaut.png" alt="user image" width={40} height={40}
+                               className={styles.userImage}/>
+                        John Doe
+                    </div>
                 </td>
                 <td>
                     <span className={`${styles.status} ${styles.pending}`}>
