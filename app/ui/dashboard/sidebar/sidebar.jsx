@@ -25,11 +25,11 @@ const menuItems = [
             },
             {
                 title: "Users",
-                path: "/users",
+                path: "/dashboard/users",
                 icon: <MdVerifiedUser/>,
             }, {
                 title: "Markets",
-                path: "/markets",
+                path: "/dashboard/markets",
                 icon: <MdShop/>,
             },
         ]
@@ -38,16 +38,16 @@ const menuItems = [
         list: [
             {
                 title: "Revenue",
-                path: "/revenue",
+                path: "/dashboard/revenue",
                 icon: <MdReport/>,
             },
             {
                 title: "Teams",
-                path: "/teams",
+                path: "/dashboard/teams",
                 icon: <MdGroup/>,
             }, {
                 title: "Reports",
-                path: "/reports",
+                path: "/dashboard/reports",
                 icon: <MdShop/>,
             },
         ]
@@ -57,12 +57,12 @@ const menuItems = [
         list: [
             {
                 title: "All",
-                path: "/users",
+                path: "/dashboard/users/all",
                 icon: <MdPerson2/>,
             },
             {
                 title: "Add Users",
-                path: "/user",
+                path: "/dashboard/user",
                 icon: <MdPerson/>,
             }
         ]
@@ -77,7 +77,7 @@ const menuItems = [
             },
             {
                 title: "Add Market",
-                path: "/market",
+                path: "/dashboard/market",
                 icon: <MdShoppingBag/>,
             }
         ]
@@ -92,7 +92,7 @@ const menuItems = [
             },
             {
                 title: "Profile",
-                path: "/profile",
+                path: "/dashboard/profile",
                 icon: <MdPerson/>,
             }
         ]
