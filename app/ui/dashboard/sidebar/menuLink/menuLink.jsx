@@ -1,6 +1,6 @@
-import React from 'react'
-import Link  from "next/link";
-import styles  from "./menuLink.module.css"
+import React  from 'react'
+import Link   from "next/link";
+import styles from "./menuLink.module.css"
 
 // {
 //                 title:"Dashboard",
@@ -9,8 +9,10 @@ import styles  from "./menuLink.module.css"
 //             },
 const MenuLink = ({item}) => (
     <Link href={item.path} className={styles.container}>
-        {item.title}
-        {item.icon}
+        <p>
+            {item.icon}
+            {item.title}
+        </p>
     </Link>
 );
 
