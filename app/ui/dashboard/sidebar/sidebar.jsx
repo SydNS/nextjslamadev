@@ -30,7 +30,7 @@ const menuItems = [
         list: [
             {
                 title: "All",
-                path: "/dashboard",
+                path: "/users",
                 icon: <MdPerson2/>,
             },
             {
@@ -44,13 +44,43 @@ const menuItems = [
         title: "Market",
         list: [
             {
-                title: "markets",
+                title: "Markets",
                 path: "/markets",
                 icon: <MdShop/>,
             },
             {
                 title: "Add Market",
                 path: "/market",
+                icon: <MdShoppingBag/>,
+            }
+        ]
+    },
+    {
+        title: "Banks",
+        list: [
+            {
+                title: "Banks",
+                path: "/banks",
+                icon: <MdShop/>,
+            },
+            {
+                title: "Add Bank",
+                path: "/bank",
+                icon: <MdShoppingBag/>,
+            }
+        ]
+    },
+    {
+        title: "TelCo.s",
+        list: [
+            {
+                title: "Mobile Telco",
+                path: "/telco",
+                icon: <MdShop/>,
+            },
+            {
+                title: "Add Mobile Telco",
+                path: "/telco",
                 icon: <MdShoppingBag/>,
             }
         ]
@@ -68,7 +98,7 @@ const Sidebar = () => (
                 return (
                     <li key={item.title}>
                         <span className={styles.item}>{item.title}</span>
-                        <ul>
+                        <ul className={styles.menuList}>
                             {item.list.map(it=>(
                                 <MenuLink item={it} key={item.title}/>
                             ))}
