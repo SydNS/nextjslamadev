@@ -1,30 +1,37 @@
-.container{
+.container {
     position: sticky;
     top: 40px;
 }
-.user{
+
+.user {
     display: flex;
     align-items: center;
-    gap:20px;
+    gap: 20px;
 }
-.userImage{
+
+.userImage {
     border-radius: 50%;
     object-fit: cover;
     background-color: #6081ca;
 }
-.userName{
+
+.userName {
     font-weight: 500;
 }
-.userTitle{
+
+.userTitle {
     font-size: 12px;
     color: var(--textSoft);
 }
-.menuList{
+
+.menuList {
     list-style: none;
+    padding: 5px;
 }
-.item{
-color: var(--textSoft);
+
+.item {
+    color: var(--textSoft);
     font-weight: bold;
-    font-size: 13px;
+    font-size: 14px;
     margin: 10px 0px 10px 0px;
 }
