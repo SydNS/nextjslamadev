@@ -1,7 +1,7 @@
 import React from 'react'
 
 const RightBar = () => (
-    <div>Chart</div>
+    <div>RightBar</div>
 );
 
 export default RightBar
