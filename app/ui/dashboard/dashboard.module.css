@@ -2,11 +2,31 @@
     display: flex;
 }
 .menu{
-    flex:1;
+    flex:0.8;
     background: var(--bgSoft);
     padding: 20px;
 }
 .content{
     flex: 4;
     padding: 20px;
+}
+.wrapper{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.main{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px ;
+
+}
+.side{
+    flex: 1;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
 }
