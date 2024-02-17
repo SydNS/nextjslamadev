@@ -1,6 +1,15 @@
-import React                                                                              from 'react'
-import {MdDashboard, MdPerson, MdPerson2, MdShop, MdShoppingBag, MdVerifiedUser} from "react-icons/md";
-import styles                                                                             from "./sidebar.module.css"
+import React                                                                               from 'react'
+import {
+    MdDashboard,
+    MdGroup,
+    MdPerson,
+    MdPerson2,
+    MdReport,
+    MdShop,
+    MdShoppingBag,
+    MdVerifiedUser
+} from "react-icons/md";
+import styles                                                                              from "./sidebar.module.css"
 import MenuLink
                                                                      from "@/app/ui/dashboard/sidebar/menuLink/menuLink";
 import Image                                                                              from "next/image";
@@ -21,6 +30,24 @@ const menuItems = [
             }, {
                 title: "Markets",
                 path: "/markets",
+                icon: <MdShop/>,
+            },
+        ]
+    }, {
+        title: "Analytics",
+        list: [
+            {
+                title: "Revenue",
+                path: "/revenue",
+                icon: <MdReport/>,
+            },
+            {
+                title: "Teams",
+                path: "/teams",
+                icon: <MdGroup/>,
+            }, {
+                title: "Reports",
+                path: "/reports",
                 icon: <MdShop/>,
             },
         ]

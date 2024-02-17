@@ -25,6 +25,7 @@
 }
 
 .menuList {
+    margin-top: 5px;
     list-style: none;
     padding: 5px;
 }
