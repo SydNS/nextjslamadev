@@ -19,3 +19,12 @@
     font-size: 12px;
     color: var(--textSoft);
 }
+.menuList{
+    list-style: none;
+}
+.item{
+color: var(--textSoft);
+    font-weight: bold;
+    font-size: 13px;
+    margin: 10px 0px 10px 0px;
+}

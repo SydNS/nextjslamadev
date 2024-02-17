@@ -1,5 +1,5 @@
 import React                                                                              from 'react'
-import {MdClass, MdDashboard, MdPerson, MdPerson2, MdShop, MdShoppingBag, MdVerifiedUser} from "react-icons/md";
+import {MdDashboard, MdPerson, MdPerson2, MdShop, MdShoppingBag, MdVerifiedUser} from "react-icons/md";
 import styles                                                                             from "./sidebar.module.css"
 import MenuLink
                                                                      from "@/app/ui/dashboard/sidebar/menuLink/menuLink";
@@ -63,7 +63,7 @@ const Sidebar = () => (
             <span className={styles.username}>Sydney Doe</span>
             <span className={styles.userTitle}>Sr Dev</span>
         </div>
-        <ul>
+        <ul className={styles.menuList}>
             {menuItems.map((item) => {
                 return (
                     <li key={item.title}>
