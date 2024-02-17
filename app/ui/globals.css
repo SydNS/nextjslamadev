@@ -1,0 +1,14 @@
+:root{
+    --bg: #6081ca;
+    --bgSoft: rgba(133, 221, 236, 0.53);
+    --text:white;
+    --textSoft: #dedede;
+}
+body{
+    background-color: var(--bg);
+    color: var(--text);
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
