@@ -38,6 +38,19 @@
     font-size: 14px;
     margin: 10px 0px 10px 0px;
 }
+.logout{
+    background-color: transparent;
+    margin-top:5px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    cursor: pointer;
+    border:none;
+    font-size: 15px;
+    width: 100%;
+    color: white;
+}
 
 /* Media Query for small screens */
 @media (max-width: 768px) {

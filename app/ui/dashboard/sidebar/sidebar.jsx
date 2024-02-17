@@ -1,7 +1,7 @@
 import React                                                                               from 'react'
 import {
     MdDashboard,
-    MdGroup,
+    MdGroup, MdLogout,
     MdPerson,
     MdPerson2,
     MdReport, MdSettings,
@@ -119,6 +119,10 @@ const Sidebar = () => (
                 )
             })}
         </ul>
+        <button className={styles.logout}>
+            <MdLogout/>
+            Logout
+        </button>
     </div>
 );
 
