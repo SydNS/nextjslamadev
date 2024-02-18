@@ -3,6 +3,11 @@
     --bgSoft: rgba(133, 162, 236, 0.22);
     --text:white;
     --textSoft: #dedede;
+
+/*    buttons*/
+    --viewBtnBg: #00ff04;
+    --editBtnBg: #0080ff;
+    --delBtnBg: red;
 }
 body{
     /*background-color: var(--bg);*/
